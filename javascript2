@@ -1,0 +1,3 @@
+const numbers = [5, 1, 9, 3, 7];
+const sortedDescending = numbers.sort((a, b) => b - a);
+console.log(sortedDescending); // Output: [9, 7, 5, 3, 1]
